@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leelaspa</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Leela</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ <!-- jQuery -->
+ 
+    <script src="/assets/jquery.js"></script>
+
+    <script src="/assets/bootstrap.min.js"></script>
+
+</head>
+<body>
+ <!-- <div class="brand">Business Casual</div>
+    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+ -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-brand" href="index.html">Business Casual</a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <img class="img-responsive center-block" src="/assets/logo.jpg" alt="">
+                    </li>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+
+                    <li class="dropdown">
+                      <a href="/" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Spa<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="/spa_massages">MASSAGES</a></li>
+                        <li><a href="/spa_esthetics">ESTHETICS</a></li>
+                        <li><a href="/spa_waxing">WAXING</a></li>
+                        <li><a href="/spa_therapists">OUR THERAPISTS</a></li>
+                        <li><a href="/spa_estheticians">OUR ESTHETICIANS</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown">
+                      <a href="/" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Yoga<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">YOGA CLASSES</a></li>
+                        <li><a href="#">YOGA SCHEDULE</a></li>
+                        <li><a href="#">LITTLE HIPPIES</a></li>
+                        <li><a href="#">OUR TEACHERS</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="dropdown">
+                      <a href="/" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Natural Medicine<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">ACUPUNCTURE & TCM</a></li>
+                        <li><a href="#">MEDICAL INTUITIVE HEALING</a></li>
+                        <li><a href="#">NUTRITIONAL WELLNESS</a></li>
+                        <li><a href="#">OUR PRACTITIONERS</a></li>
+                      </ul>
+                    </li> 
+                    
+                    <li class="dropdown">
+                      <a href="/about" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">About<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="/about_leela">WHY LEELA?</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">DIRECTIONS AND CONTACT</a></li>
+                        <li><a href="#">PRIVACY POLICY</a></li>
+                      </ul>
+                    </li>
+                                            
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+           
+        </div>
+       
+    </nav>
+
+
+
+<%= yield %>
+<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; leelaecospa 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
