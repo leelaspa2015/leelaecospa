@@ -6,7 +6,7 @@
 
 body {
     font-family: Helvetica,Arial,sans-serif;
-    background: url('../assets/bg.jpg') no-repeat center center fixed;
+    background: url('../assets/bgfix.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -36,8 +36,7 @@ hr {
     border-color: #999999;
 }
 
-.brand,
-.address-bar {
+.brand {
     display: none;
 }
 
@@ -63,12 +62,12 @@ hr {
 }
 
 .brand-before {
-    margin: 15px 0;
+    margin: 0px;
 }
 
 .brand-name {
     margin: 0;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .tagline-divider {
@@ -109,7 +108,7 @@ footer {
 
 footer p {
     margin: 0;
-    padding: 50px 0;
+    padding: 10px 0;
 }
 
 @media screen and (min-width:768px) {
@@ -138,14 +137,7 @@ footer p {
     .address-bar {
         display: inherit;
         margin: 0;
-        padding: 0 0 40px;
-        text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        text-transform: uppercase;
-        font-size: 1.25em;
-        font-weight: 400;
-        letter-spacing: 3px;
-        color: #fff;
+        padding: 5px;
     }
 
     .navbar {
@@ -168,7 +160,7 @@ footer p {
     }
 
     .nav>li>a {
-        padding: 25px;
+        padding: 25px 15px 33px 15px;
     }
 
     .navbar-nav>li>a {
@@ -205,5 +197,37 @@ footer p {
 
 .pad_top2 {
     padding-top: 2em;
+}
+
+.bg_eee {
+    background: #EEEEEE;
+}
+
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+.image_responsive {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*===================
+       Index
+===================== */
+
+#award_carousel .carousel-control {
+    width: 5%;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    background-image: none;
+    color: rgb(114, 114, 114);
+
+}
+#award_carousel .carousel {
+    padding-top: 1em;
 }
 
