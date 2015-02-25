@@ -134,12 +134,21 @@ footer p {
         margin-right: 25px;
     }
 
+    
+
     .address-bar {
         display: inherit;
         margin: 0;
         padding: 5px;
+        text-align: inherit;
+        text-shadow: none;
+        text-transform: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        letter-spacing: inherit;
+        color: inherit;
     }
-
+    
     .navbar {
         border-radius: 0;
     }
