@@ -148,7 +148,7 @@ footer p {
         letter-spacing: inherit;
         color: inherit;
     }
-    
+
     .navbar {
         border-radius: 0;
     }
@@ -206,6 +206,10 @@ footer p {
 
 .pad_top2 {
     padding-top: 2em;
+}
+
+.pad_right17 {
+    padding-right: 17em;
 }
 
 .bg_eee {
