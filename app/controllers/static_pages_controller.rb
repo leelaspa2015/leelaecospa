@@ -32,9 +32,6 @@ class StaticPagesController < ApplicationController
   def natural_acupuncture
   end
 
-  def natural_healing
-  end
-
   def natural_wellness
   end
 
