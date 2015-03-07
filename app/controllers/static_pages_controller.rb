@@ -42,6 +42,7 @@ class StaticPagesController < ApplicationController
   end
 
   def about_gallery
+      render :layout => 'layoutgallery'
   end
 
   def about_policy
@@ -50,6 +51,6 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
-  def help
+  def help    
   end
 end
