@@ -5,7 +5,7 @@
  */
 
 body {
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: 'Raleway',Helvetica,Arial,sans-serif;
     background: url('../assets/bgfix.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,7 +20,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: 'Raleway', Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -123,7 +123,7 @@ footer h6 {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: Helvetica,Arial,sans-serif;
+        font-family: 'Raleway',Helvetica,Arial,sans-serif;
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
@@ -215,6 +215,10 @@ footer h6 {
 
 .pad_bot3 {
     padding-bottom: 3em;
+}
+
+.pad_bot4p {
+    padding-bottom: 4px;
 }
 
 .pad_right17 {
