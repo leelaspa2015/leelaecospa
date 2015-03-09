@@ -102,7 +102,7 @@
                       <a href="/about" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">About<span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                         <li><a href="/about_leela">WHY LEELA?</a></li>
-                        <li><a href="/about_gallery">GALLERY</a></li>
+                        <li><%= link_to "GALLERY", about_gallery_path, :method => :get %></li>
                         <li><a href="/about_policy">PRIVACY POLICY</a></li>
                       </ul>
                     </li>
