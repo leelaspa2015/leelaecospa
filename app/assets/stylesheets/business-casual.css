@@ -26,8 +26,8 @@ h6 {
 }
 
 p {
-    font-size: 1em;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.5;
     color: #000;
 }
 
@@ -78,14 +78,13 @@ hr {
 
 .box {
     margin-bottom: 20px;
-    padding: 30px 15px;
+    padding: 15px 15px;
     background: #fff;
     background: rgba(255,255,255,0.95);
 }
 
 .intro-text {
     text-transform: uppercase;
-    font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -202,15 +201,27 @@ footer h6 {
     display: block;
  }
  
+ @media screen and (max-width:768px) {
+    .dropdown:hover .dropdown-menu {
+    display: none;
+ }
+ }
 /*===================
        General
 ===================== */
+#pad_zero {
+    padding: 0;
+}
 .pad_top1 {
     padding-top: 1em;
 }
 
 .pad_top2 {
     padding-top: 2em;
+}
+
+.pad_botp5 {
+    padding-bottom: 0.5em;
 }
 
 .pad_bot3 {
@@ -225,8 +236,16 @@ footer h6 {
     padding-right: 17em;
 }
 
+.mar_topm15p {
+    margin-top: -15px;
+}
+
 .bg_eee {
     background: #EEEEEE;
+}
+
+.price_color {
+    color: #9F0E57;
 }
 
 .gi-2x{font-size: 2em;}
