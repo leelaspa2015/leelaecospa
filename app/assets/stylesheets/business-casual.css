@@ -44,7 +44,7 @@ hr {
 
 .navbar-nav {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 900;
     letter-spacing: 3px;
 }
 
@@ -193,13 +193,11 @@ footer h6 {
     }
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
- }
+
  
- @media screen and (max-width:768px) {
+ @media screen and (min-width:768px) {
     .dropdown:hover .dropdown-menu {
-    display: none;
+    display: block;
  }
  }
 /*===================
@@ -228,8 +226,8 @@ footer h6 {
     padding-bottom: 4px;
 }
 
-.pad_right17 {
-    padding-right: 17em;
+.pad_right16p7 {
+    padding-right: 16.7em;
 }
 
 .mar_topm15p {

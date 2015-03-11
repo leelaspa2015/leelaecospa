@@ -23,7 +23,7 @@ class StaticPagesController < ApplicationController
   def yoga_schedule
   end
 
-  def yoga_littlehappies
+  def yoga_littlehippies
   end
 
   def yoga_teachers
