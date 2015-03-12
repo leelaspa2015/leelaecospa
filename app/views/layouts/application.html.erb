@@ -56,8 +56,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                
-                <a class="navbar-brand" href="/"><img class="img-responsive center-block mar_topm15p" src="/assets/logo_small.jpg" alt="logo"></a>
+                                
+                <%= link_to(image_tag("logo_small.jpg", class: "img-responsive center-block mar_topm15p"), root_path, class: "navbar-brand", method: :get) %>
             </div>
             
             <div class="collapse navbar-collapse">
@@ -65,46 +65,47 @@
                     <li class="pad_right16p7 hidden-xs">
                         <a href="/" id="pad_zero"><img class="img-responsive center-block" src="/assets/logo.jpg" alt="logo"></a>
                     </li>
-                    <li>
-                        <a href="/">Home</a>
+                    <li>                        
+                        <%= link_to "Home", root_path, :method => :get %>
                     </li>
 
                     <li class="dropdown">
                       <a href="/spa_massages" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Spa<span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li><a href="/spa_massages">MASSAGES</a></li>
-                        <li><a href="/spa_esthetics">ESTHETICS</a></li>
-                        <li><a href="/spa_waxing">WAXING</a></li>
-                        <li><a href="/spa_therapists">OUR THERAPISTS</a></li>
-                        <li><a href="/spa_estheticians">OUR ESTHETICIANS</a></li>
+                        <li><%= link_to "MASSAGES", spa_massages_path, :method => :get %></li>
+                        <li><%= link_to "ESTHETICS", spa_esthetics_path, :method => :get %></li>
+                        <li><%= link_to "WAXING", spa_waxing_path, :method => :get %></li>
+                        <li><%= link_to "OUR THERAPISTS", spa_therapists_path, :method => :get %></li>
+                        <li><%= link_to "OUR ESTHETICIANS", spa_estheticians_path, :method => :get %></li>
+
                       </ul>
                     </li>
 
                     <li class="dropdown">
                       <a href="/" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Yoga<span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li><a href="/yoga_classes">YOGA CLASSES</a></li>
-                        <li><a href="/yoga_schedule">YOGA SCHEDULE</a></li>
-                        <li><a href="/yoga_littlehippies">LITTLE HIPPIES</a></li>
-                        <li><a href="/yoga_teachers">OUR TEACHERS</a></li>
+                        <li><%= link_to "YOGA CLASSES", yoga_classes_path, :method => :get %></li>
+                        <li><%= link_to "YOGA SCHEDULE", yoga_schedule_path, :method => :get %></li>
+                        <li><%= link_to "LITTLE HIPPIES", yoga_littlehippies_path, :method => :get %></li>
+                        <li><%= link_to "OUR TEACHERS", yoga_teachers_path, :method => :get %></li>
                       </ul>
                     </li>
 
                     <li class="dropdown">
                       <a href="/" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Natural Medicine<span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li><a href="/natural_acupuncture">ACUPUNCTURE</a></li>                        
-                        <li><a href="/naturopathy">NATUROPATHY</a></li>
-                        <li><a href="/natural_practitioner">OUR PRACTITIONERS</a></li>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">                        
+                        <li><%= link_to "ACUPUNCTURE", natural_acupuncture_path, :method => :get %></li>
+                        <li><%= link_to "NATUROPATHY", naturopathy_path, :method => :get %></li>
+                        <li><%= link_to "OUR PRACTITIONERS", natural_practitioner_path, :method => :get %></li>
                       </ul>
                     </li> 
                     
                     <li class="dropdown">
                       <a href="/about" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">About<span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li><a href="/about_leela">WHY LEELA?</a></li>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">                        
+                        <li><%= link_to "WHY LEELA?", about_leela_path, :method => :get %></li>
                         <li><%= link_to "GALLERY", about_gallery_path, :method => :get %></li>
-                        <li><a href="/about_policy">PRIVACY POLICY</a></li>
+                        <li><%= link_to "PRIVACY POLICY", about_policy_path, :method => :get %></li>
                       </ul>
                     </li>
                                             
