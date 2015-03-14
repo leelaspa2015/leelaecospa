@@ -214,6 +214,10 @@ footer h6 {
     padding-top: 2em;
 }
 
+.pad_top4 {
+    padding-top: 4em;
+}
+
 .pad_botp5 {
     padding-bottom: 0.5em;
 }
@@ -228,6 +232,11 @@ footer h6 {
 
 .pad_right12 {
     padding-right: 12em;
+}
+
+.pad_top_bot2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .mar_topm15p {
