@@ -39,7 +39,7 @@
                     </h2>
                     <h1 class="brand-name">Leela Eco Spa & Studio</h1>
                     <!-- <hr class="tagline-divider"> -->
-                    <p>Leela Eco Spa &amp; Studio offers services in Massage, Esthetics, Yoga, Natural Medicine and Intuitive Healing. We are an environmentally conscious company committed to using <em>eco-friendly</em> and <em>organic</em> products for our beloved clients. So while you are here, let go of the world, and allow us to create a personalized experience for you!</p>
+                    <p class="pad_top1">Leela Eco Spa &amp; Studio offers services in Massage, Esthetics, Yoga, Natural Medicine and Intuitive Healing. We are an environmentally conscious company committed to using <em>eco-friendly</em> and <em>organic</em> products for our beloved clients. So while you are here, let go of the world, and allow us to create a personalized experience for you!</p>
                     <!-- <h2>
                         <small>By
                             <strong>Start Bootstrap</strong>
@@ -48,14 +48,45 @@
                 </div>
                    
 
+    
+        <div class="col-lg-12 col-md-12">
+            <div class="row text-center">
+                <div class="col-lg-12 col-md-12">
+                    <h3 class="pad_top_bot1">
+                        <strong>Highlights</strong>
+                    </h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-4  col-sm-4">
+                    <%= link_to(image_tag("/assets/home_massage_stone.jpg", class: 'image_responsive'), spa_massages_path,  :method => :get) %>
+                    <%= link_to "<h4><strong>SPA</strong></h4>".html_safe, spa_massages_path, :method => :get %>
+                    <h6>Relax & let our therapists use their professional skills to create a magical experience for your senses.</h6>                  
+                </div>
+                <div class="col-lg-4 col-md-4  col-sm-4">
+                    <%= link_to(image_tag("/assets/home_classes_discover.jpg", class: 'image_responsive'), yoga_classes_path,  :method => :get) %>
+                    <%= link_to "<h4><strong>YOGA</strong></h4>".html_safe, yoga_classes_path, :method => :get %>                    
+                    <h6>All our yoga instructors will show a basic, intermediate and advanced version of most postures.</h6>                   
+                </div>
+                <div class="col-lg-4 col-md-4  col-sm-4">
+                    <%= link_to(image_tag("/assets/home_acupuncture.jpg", class: 'image_responsive'), natural_acupuncture_path,  :method => :get) %>
+                    <%= link_to "<h4><strong>NATURAL MEDICINE</strong></h4>".html_safe, natural_acupuncture_path, :method => :get %>
+                    <h6>High level wellness is more than being free from a serious disease.</h6>
+                </div>
+            </div>
+        </div>
+        
+    <div class="col-sm-12 pad_top3">
+        <div class="well">
+            <p class="text-center"><strong> We are proud to welcome our two new practitioners Dr. Sandra Blackwell and Dr. Tanya Rampersad to the Leela family! Dr. Sandra shall be taking new Acupuncture clients and Dr. Tanya is looking to heal clients through Manual Visceral therapy!</strong></p>
+        </div>
+    </div>
 
-                <div class="col-sm-12 col-md-12 col-lg-12" id="award_carousel">
-
-                <p class="text-center"><strong> We are proud to welcome our two new practitioners Dr. Sandra Blackwell and Dr. Tanya Rampersad to the Leela family! Dr. Sandra shall be taking new Acupuncture clients and Dr. Tanya is looking to heal clients through Manual Visceral therapy!</strong></p>
-                 
-                <h2 class="intro-text text-center">
-                    <strong>Awards And Recognitions</strong>
-                </h2>
+    <div class="col-sm-12 pad_top1" id="award_carousel">
+     
+    <h2 class="intro-text text-center">
+        <strong>Awards And Recognitions</strong>
+    </h2>
                       
 
 
