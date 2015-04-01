@@ -2,11 +2,13 @@
 
 body {
     font-family: 'Raleway',Helvetica,Arial,sans-serif;
-    background: url('../assets/bgfix.png') no-repeat center center fixed;
+    background-image: url("../assets/bgfix.png");
+    background-repeat: repeat;
+ /* background: url('../assets/bgfix.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;  */
 }
 
 h1,
@@ -206,6 +208,11 @@ footer h6 {
 #pad_zero {
     padding: 0;
 }
+
+.pad_topp5 {
+    padding-top: 0.5em;
+}
+
 .pad_top1 {
     padding-top: 1em;
 }
@@ -255,8 +262,16 @@ footer h6 {
     background: #D3D3D3;
 }
 
+.bg_brown {
+    background: #D0BE9A;
+}
+
 .price_color {
     color: #9F0E57;
+}
+
+.green_color {
+    color: #008000;
 }
 
 .gi-2x{font-size: 2em;}
