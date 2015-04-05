@@ -57,6 +57,7 @@ hr {
 .brand-before,
 .brand-name {
     text-transform: capitalize;
+    color: #3C3431;
 }
 
 .brand-before {
