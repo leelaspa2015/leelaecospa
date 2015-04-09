@@ -52,4 +52,13 @@ class StaticPagesController < ApplicationController
 
   def help    
   end
+
+  def download_pdf
+    send_file(
+      "#{Rails.root}/public/doc/Menu-June-2014.pdf",
+      filename: "Menu-June-2014.pdf",
+      type: "application/pdf"
+    )
+  end
+
 end
