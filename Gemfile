@@ -30,6 +30,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem "dynamic_sitemaps"
+gem 'metamagic'
 
  group :assets do
 gem 'less-rails-bootstrap'
