@@ -5,6 +5,9 @@ class StaticPagesController < ApplicationController
   def spa_massages
   end
 
+  def book_appointment
+  end
+
   def spa_esthetics
   end
 

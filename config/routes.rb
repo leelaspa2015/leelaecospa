@@ -24,6 +24,7 @@ Leelaecospa::Application.routes.draw do
 
   match '/', to: 'static_pages#index', via: 'get'
   match '/spa-massages', to: 'static_pages#spa_massages', via: 'get', as: :spa_massages
+  match '/book-appointment', to: 'static_pages#book_appointment', via: 'get', as: :book_appointment
   match '/spa-esthetics', to: 'static_pages#spa_esthetics', via: 'get', as: :spa_esthetics
   match '/spa-waxing', to: 'static_pages#spa_waxing', via: 'get', as: :spa_waxing
   match '/spa-therapists', to: 'static_pages#spa_therapists', via: 'get', as: :spa_therapists
