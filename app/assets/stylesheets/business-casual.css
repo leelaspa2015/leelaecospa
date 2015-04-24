@@ -328,6 +328,28 @@ footer h6 {
     height: auto;
 }
 
+.entry-meta {
+    border-radius: 5px;
+    overflow: hidden;
+    background: #337ab7;
+    border-top: 1px solid #fff;
+    border-bottom: 5px solid #4e4e4e;
+    display: block;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+
+}
+
+#blog_hr hr {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #fff;
+}
 
 /*===================
        Index

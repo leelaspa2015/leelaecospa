@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <% meta title: "Blog",
+          description: "",
+          keywords: %w("blog")
+  %>
+  <% metamagic site: "Leela Eco Spa", title: [:title , :site], separator: " | " %>
+</head>
+
+<body>    
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <h1 class="intro-text text-center">Leela Eco Spa
+                        <strong class="pink">BLOG</strong>
+                    </h1>
+                    <div class="row">
+			            <div class="col-sm-8">			              
+			            </div>
+			            <div class="col-sm-4 text-right">
+			                <% if user_signed_in? %>
+			                <p><b><%= current_user.email %></b></p>
+			                <h4><b><%= link_to "New Article", new_article_path %></b></h4>
+			                <p><b><%= link_to 'Logged In [click to logout]', destroy_user_session_path, :method => :delete %></b></p>
+			                <% end %>
+			            </div>			            
+			        </div>
+                </div>
+                <% @articles.each do |article| %>
+                <div class="col-xs-12 col-sm-2 text-center">
+                    <h2 class="entry-meta">
+                        <span><%= article.created_at.strftime("%Y %B %d, %H:%M:%S") %></span>
+                    </h2>
+                </div>
+                <div class="col-xs-12 col-sm-10">
+
+                	<h2><%= link_to  article.title.html_safe, article_path(article.id) %></h2>
+
+                    <h3><%= article.body.html_safe %></h3>
+
+                    <%= link_to "Read More ".html_safe + "<i class='fa fa-angle-right'></i>".html_safe, article_path(article.id), class: "btn btn-primary" %>
+                    <% if user_signed_in? %>
+                    <%= link_to "Edit Article", edit_article_path(article), class: "btn btn-primary" %>
+                    <%= link_to "Delete Article", article, method: :delete, data:{ confirm: 'Are you sure?'}, class: "btn btn-primary" %>
+                    <% end %>                                   
+                
+               		<div id="blog_hr">
+					  <% if article != @articles.last %>
+					  <hr />
+					  <% end %>
+					</div>
+				</div>
+				<% end %>
+
+            </div>
+        </div>
+
+        
+
+    </div>
+
+</body>
+
+</html>

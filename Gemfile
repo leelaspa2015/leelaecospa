@@ -31,6 +31,9 @@ gem 'jbuilder', '~> 1.2'
 
 gem "dynamic_sitemaps"
 gem 'metamagic'
+gem 'ckeditor', github: 'galetahub/ckeditor'
+gem 'paperclip'
+gem 'devise'
 
  group :assets do
 gem 'less-rails-bootstrap'

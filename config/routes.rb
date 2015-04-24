@@ -1,5 +1,9 @@
 Leelaecospa::Application.routes.draw do
 
+  devise_for :users
+  resources :articles
+
+  mount Ckeditor::Engine => '/ckeditor'
   root 'static_pages#index'
 
   #get "static_pages/index"
