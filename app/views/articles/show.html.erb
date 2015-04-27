@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <% meta title: "Blog",
+          description: "",
+          keywords: %w("blog")
+  %>
+  <% metamagic site: "Leela Eco Spa", title: [:title , :site], separator: " | " %>
+</head>
+
+<body>    
+
+     <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <h1 class="intro-text text-center">Leela Eco Spa
+                        <strong class="pink">BLOG</strong>
+                    </h1>                    
+                </div>
+               
+                <div class="col-xs-12 col-sm-2 text-center">
+                    <h2 class="entry-meta">
+                        <span><%= @article.created_at.strftime("%Y %B %d, %H:%M:%S") %></span>
+                    </h2>
+                </div>
+                <div class="col-xs-12 col-sm-10">
+                    <h2 class="col_redish"><%= @article.title.html_safe %></h2>
+                    <h3><%= @article.body.html_safe %></h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

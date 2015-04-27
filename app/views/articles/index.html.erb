@@ -51,17 +51,19 @@
                     <% end %>                                   
                 
                		<div id="blog_hr">
-					  <% if article != @articles.last %>
+					  
 					  <hr />
-					  <% end %>
+					  
 					</div>
 				</div>
 				<% end %>
 
-            </div>
-        </div>
+                <div class="col-sm-12 text-center">
+                    <%= will_paginate @articles %>
+                </div>
 
-        
+            </div>
+        </div>        
 
     </div>
 
