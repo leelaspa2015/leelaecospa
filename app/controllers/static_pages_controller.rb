@@ -58,8 +58,8 @@ class StaticPagesController < ApplicationController
 
   def download_pdf
     send_file(
-      "#{Rails.root}/public/doc/Menu-June-2014.pdf",
-      filename: "Menu-June-2014.pdf",
+      "#{Rails.root}/public/doc/Leela-Eco-Spa-Menu.pdf",
+      filename: "Leela-Eco-Spa-Menu.pdf",
       type: "application/pdf"
     )
   end
