@@ -41,6 +41,9 @@ class StaticPagesController < ApplicationController
   def natural_practitioner
   end
 
+  def natural_reiki    
+  end
+
   def about_leela
   end
 

@@ -40,6 +40,7 @@ Leelaecospa::Application.routes.draw do
   match '/natural-acupuncture', to: 'static_pages#natural_acupuncture', via: 'get', as: :natural_acupuncture
   match '/naturopathy', to: 'static_pages#natural_wellness', via: 'get'
   match '/natural-practitioner', to: 'static_pages#natural_practitioner', via: 'get', as: :natural_practitioner
+  match '/reiki', to: 'static_pages#natural_reiki', via: 'get', as: :natural_reiki
   match '/about-leela', to: 'static_pages#about_leela', via: 'get', as: :about_leela
   match '/about-gallery', to: 'static_pages#about_gallery', via: 'get', as: :about_gallery
   match '/about-policy', to: 'static_pages#about_policy', via: 'get', as: :about_policy
