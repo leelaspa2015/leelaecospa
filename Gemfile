@@ -35,6 +35,7 @@ gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'paperclip'
 gem 'devise'
 gem 'will_paginate'
+gem 'friendly_id', '~> 5.1.0'
 
  group :assets do
 gem 'less-rails-bootstrap'
