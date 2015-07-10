@@ -32,6 +32,10 @@ class StaticPagesController < ApplicationController
   def yoga_teachers
   end
 
+  def yoga_private
+    
+  end
+
   def natural_acupuncture
   end
 

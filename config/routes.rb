@@ -37,6 +37,7 @@ Leelaecospa::Application.routes.draw do
   match '/yoga-schedule', to: 'static_pages#yoga_schedule', via: 'get', as: :yoga_schedule
   #match '/yoga_littlehippies', to: 'static_pages#yoga_littlehippies', via: 'get'
   match '/yoga-teachers', to: 'static_pages#yoga_teachers', via: 'get', as: :yoga_teachers
+  match '/private-yoga', to: 'static_pages#yoga_private', via: 'get', as: :yoga_private
   match '/natural-acupuncture', to: 'static_pages#natural_acupuncture', via: 'get', as: :natural_acupuncture
   match '/naturopathy', to: 'static_pages#natural_wellness', via: 'get'
   match '/natural-practitioner', to: 'static_pages#natural_practitioner', via: 'get', as: :natural_practitioner
