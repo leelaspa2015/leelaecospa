@@ -4,29 +4,9 @@ Leelaecospa::Application.routes.draw do
   resources :articles
 
   mount Ckeditor::Engine => '/ckeditor'
+
   root 'static_pages#index'
-
-  #get "static_pages/index"
-  #get "static_pages/spa_massages"
-  #get "static_pages/spa_esthetics"
-  #get "static_pages/spa_waxing"
-  #get "static_pages/spa_therapists"
-  #get "static_pages/spa_estheticians"
-  #get "static_pages/yoga_classes"
-  #get "static_pages/yoga_schedule"
-  #get "static_pages/yoga_littlehappies"
-  #get "static_pages/yoga_teachers"
-  #get "static_pages/natural_acupuncture"
-  #get "static_pages/natural_healing"
-  #get "static_pages/natural_wellness"
-  #get "static_pages/natural_practitioner"
-  #get "static_pages/about_leela"
-  #get "static_pages/about_gallery"
-  #get "static_pages/about_policy"
-  #get "static_pages/contact"
-  #get "static_pages/help"
-
-  #match '/', to: 'static_pages#index', via: 'get'
+  
   match '/spa-massages', to: 'static_pages#spa_massages', via: 'get', as: :spa_massages
   match '/book-appointment', to: 'static_pages#book_appointment', via: 'get', as: :book_appointment
   match '/spa-esthetics', to: 'static_pages#spa_esthetics', via: 'get', as: :spa_esthetics

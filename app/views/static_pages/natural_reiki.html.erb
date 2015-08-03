@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <% meta title: "Reiki",
-          description: "Spa in Calgary, Leela Eco Spa & Studio offers services in Massage, Esthetics, Yoga, Natural Medicine and Intuitive Healing",
-          keywords: %w("Reiki in Calgary" "Reiki in Bridgeland "Reiki in Downtown Calgary" "Reiki Classes in Calgary" "Massages in Calgary" "Massages in Downtown Calgary" calgaryspa spaindowntown spaincalgary acupunture in calgary)
-  %>
-  <% metamagic site: "Leela Eco Spa", title: [:title , :site], separator: " | " %>
-</head>
 
-<body>    
+  <% meta title: "Reiki",
+          description: "Spa in Calgary, Leela Eco Spa & Studio offers services in Massage, Esthetics, Yoga, Natural Medicine and Intuitive Healing."
+          %>
+    <% metamagic keywords: [:keywords, "Reiki in Calgary","Reiki in Bridgeland","Reiki in Downtown Calgary","Reiki Classes in Calgary","Massages in Calgary","Massages in Downtown Calgary","calgaryspa spaindowntown spaincalgary acupunture in calgary"]
+        %>
+    <% metamagic site: "Leela Eco Spa", title: [:title , :site], separator: " | " %>
+
 
     <div class="container">
         <div class="row">
@@ -40,6 +37,3 @@
         ga('send', 'pageview');
 
     </script>
-</body>
-
-</html>
