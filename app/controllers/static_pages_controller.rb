@@ -60,9 +60,6 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
-  def help    
-  end
-
   def download_pdf
     send_file(
       "#{Rails.root}/public/doc/Leela-Eco-Spa-Menu.pdf",
