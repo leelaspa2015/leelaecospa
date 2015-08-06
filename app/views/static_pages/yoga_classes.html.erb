@@ -1,14 +1,14 @@
-﻿<head>
-  <% meta title: "Yoga Classes",
+﻿    <% meta title: "Yoga Classes",
           description: "Spa in Calgary, Leela Eco Spa & Studio offers services in Massage, Esthetics, Yoga, Natural Medicine and Intuitive Healing."
           %>
           <% metamagic keywords: [:keywords, "Yoga in Calgary","Yoga in Bridgeland","Yoga in Downtown Calgary","Yoga Classes in Calgary","Massages in Calgary","practitioner in calgary","practitionerincalgary","estheticsincalgary","esthetics","therapists","yogaclasses","yoga"]
-  %>
-  <% metamagic site: "Leela Eco Spa", title: [:title , :site], separator: " | " %>
-    
-  <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-  <link rel="stylesheet" href="/assets/gallery-css/bootstrap-image-gallery.css">
-</head>  
+    %>
+    <% metamagic site: "Leela Eco Spa", title: [:title , :site], separator: " | " %>
+     
+    <% content_for :image_gallery do %>
+<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css" type="text/css">
+  <link rel="stylesheet" href="/assets/gallery-css/bootstrap-image-gallery.css" type="text/css">
+    <% end %>
 
     <div class="container">
 

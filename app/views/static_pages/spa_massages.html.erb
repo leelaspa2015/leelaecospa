@@ -1,20 +1,14 @@
-﻿<head>
-    <% meta title: "Massages in Calgary",
+﻿    <% meta title: "Massages in Calgary",
      description: "We provide Massages in Calgary, Relax & let our therapists use their professional skills to create a magical experience for your senses."
      %>
      <% metamagic keywords: [:keywords, "Massages in Calgary","Massages in Bridgeland","Massage Bridgeland","Massage Inglewood","Relaxation Massage","Therapeutic Massage","Hotstone Massage","Prenatal Massage","Post-natal Massage","Couple Massage"]
     %>
     <% metamagic site: "Leela Eco Spa", title: [:title , :site ], separator: " | " %>
-    <% meta rel: { stylesheet: "//blueimp.github.io/Gallery/css/blueimp-gallery.min.css" } %>
 
-    <%
-meta custom: {
-       stylesheet: "/assets/gallery-css/bootstrap-image-gallery.css"
-     }
-%>
-  <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css" type="text/css">
+    <% content_for :image_gallery do %>
+<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css" type="text/css">
   <link rel="stylesheet" href="/assets/gallery-css/bootstrap-image-gallery.css" type="text/css">
-</head>
+    <% end %>
 
     <div class="container">
         <div class="row">
@@ -34,8 +28,8 @@ meta custom: {
                     <!-- <a href="/assets/gallery/large/gallery15_acupuncture.jpg" title="" data-gallery=""><img src="/assets/gallery/small/gallery15_acupuncture.jpg" class="pad_bot4p"></a>
                     <a href="/assets/gallery/large/gallery16_aesthetics.jpg" title="" data-gallery=""><img src="/assets/gallery/small/gallery16_aesthetics.jpg" class="pad_bot4p"></a>
                     <a href="/assets/gallery/large/gallery17_aesthetics.jpg" title="" data-gallery=""><img src="/assets/gallery/small/gallery17_aesthetics.jpg" class="pad_bot4p"></a> -->
-                    <a href="/assets/gallery/large/gallery18_Couples_massage.jpg" alt="Couple Massage" data-gallery=""><img src="/assets/gallery/small/gallery18_Couples_massage.jpg" class="pad_bot4p" alt="Couples Massage"></a>
-                    <a href="/assets/gallery/large/gallery19_leela_massage.jpg" alt="Massage" data-gallery=""><img src="/assets/gallery/small/gallery19_leela_massage.jpg" class="pad_bot4p" alt="Leela Massage"></a>
+                    <a href="/assets/gallery/large/gallery18_Couples_massage.jpg" data-gallery=""><img src="/assets/gallery/small/gallery18_Couples_massage.jpg" class="pad_bot4p" alt="Couples Massage"></a>
+                    <a href="/assets/gallery/large/gallery19_leela_massage.jpg" data-gallery=""><img src="/assets/gallery/small/gallery19_leela_massage.jpg" class="pad_bot4p" alt="Leela Massage"></a>
                   </div>
                 </div>
               </div>

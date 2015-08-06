@@ -1,17 +1,14 @@
-﻿
-<head>
-  <% meta title: "Gallery",
+﻿  <% meta title: "Gallery",
           description: "Spa in Calgary, Leela Eco Spa & Studio offers services in Massage, Esthetics, Yoga, Natural Medicine and Intuitive Healing."
          %>
     <% metamagic keywords: [:keywords, "Spa in Calgary","Spa in Bridgeland","Spa in Downtown Calgary","Yoga Classes in Calgary","Massages in Calgary","Massages in Downtown Calgary","calgaryspa","spaindowntown","spaincalgary"]
   %>
   <% metamagic site: "Leela Eco Spa", title: [:title , :site], separator: " | " %>
 
-<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-<link rel="stylesheet" href="/assets/gallery-css/bootstrap-image-gallery.css">
-
-</head>
-
+    <% content_for :image_gallery do %>
+<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css" type="text/css">
+  <link rel="stylesheet" href="/assets/gallery-css/bootstrap-image-gallery.css" type="text/css">
+    <% end %>
 
 <div class="container">
     <div class="row">
