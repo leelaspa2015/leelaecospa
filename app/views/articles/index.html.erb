@@ -16,9 +16,9 @@
 			            </div>
 			            <div class="col-sm-4 text-right">
 			                <% if user_signed_in? %>
-			                <p><b><%= current_user.email %></b></p>
+			                <p><Strong><%= current_user.email %></Strong></p>
 			                <h4><b><%= link_to "New Article", new_article_path %></b></h4>
-			                <p><b><%= link_to 'Logged In [click to logout]', destroy_user_session_path, :method => :delete %></b></p>
+			                <p><strong><%= link_to 'Logged In [click to logout]', destroy_user_session_path, :method => :delete %></strong></p>
 			                <% end %>
 			            </div>			            
 			        </div>
