@@ -17,3 +17,9 @@
 .pink{
   color: #EF2572;
 }
+
+.fixed-panel {
+  min-height: 10px;
+  max-height: 10px;
+  overflow-y: scroll;
+}

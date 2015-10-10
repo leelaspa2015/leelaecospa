@@ -1,255 +1,366 @@
-﻿  <% meta title: "Spa in Calgary | Leela Eco Spa , Spa in Downtown By Leela Eco Spa",
-     description: "Leela Eco Spa offers services in Spa, Massage, Esthetics, Natural Medicine and Intuitive Healing in Calgary. We are an environmentally conscious company committed to using eco-friendly and organic products for our beloved clients. We are the best in class Spa in Calgary"
-    %>
-  <% metamagic keywords: [:keywords, "Spa in Calgary","Spa in Downtown","Massage in Downtown","Spa in Bridgeland","Spa in Downtown Calgary","Yoga Classes in Calgary","Massages in Calgary","Massages in Downtown Calgary","calgaryspa", "spaindowntown","spaincalgary"]
-    %>
-    <% metamagic site: "Leela Eco Spa", title: [:site , :title], separator: " | " %>
-    <% meta copyright: "Leela Eco Spa" %>
-    <% meta owner: "Leela Eco Spa" %>
-    <% meta distribution: "global" %>
-    <% meta rating: "general" %>
-    <% meta rel: { canonical: "http://www.leelaecospa.ca/" } %>
+﻿<% meta title: "Spa in Calgary | Leela Eco Spa , Spa in Downtown By Leela Eco Spa",
+        description: "Leela Eco Spa offers services in Spa, Massage, Esthetics, Natural Medicine and Intuitive Healing in Calgary. We are an environmentally conscious company committed to using eco-friendly and organic products for our beloved clients. We are the best in class Spa in Calgary"
+%>
+<% metamagic keywords: [:keywords, "Spa in Calgary", "Spa in Downtown", "Massage in Downtown", "Spa in Bridgeland", "Spa in Downtown Calgary", "Yoga Classes in Calgary", "Massages in Calgary", "Massages in Downtown Calgary", "calgaryspa", "spaindowntown", "spaincalgary"]
+%>
+<% metamagic site: "Leela Eco Spa", title: [:site, :title], separator: " | " %>
+<% meta copyright: "Leela Eco Spa" %>
+<% meta owner: "Leela Eco Spa" %>
+<% meta distribution: "global" %>
+<% meta rating: "general" %>
+<% meta rel: {canonical: "http://www.leelaecospa.ca/"} %>
 
-    <div class="container">
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-full hidden-xs" src="/assets/light/spa-massage-calgary.jpg" alt="Spa in Downtown">
-                    <div class="text-center">
-                    <img class="image_responsive hidden-sm hidden-md hidden-lg"  src="/assets/light/spa-calgary.jpg" alt="Massage in Downtown">
-                    </div>
-                        <div class="carousel-caption hidden-xs">
-                           <a href="http://clients.mindbodyonline.com/classic/ws?studioid=8778&amp;stype=-9" class="btn btn-default btn-lg" target="_blank" rel="nofollow">Book Appointment</a>
-                        </div>
-                        <div class="carousel-caption hidden-sm hidden-md hidden-lg">
-                           <a href="http://clients.mindbodyonline.com/classic/ws?studioid=8778&amp;stype=-9" class="btn btn-default btn-sm" target="_blank" rel="nofollow">Book Appointment</a>
-                        </div>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <h2 class="brand-before">
-                        <small>Welcome to</small>
-                    </h2>
-                    <h1 class="brand-name"><span class="pink">Leela Eco Spa </span></h1>
-                    <p class="r_text-justify pad_top1">Leela Eco Spa offers services in <b>Spa</b>, <b>Massage</b>, <b>Esthetics</b>, <b>Waxing</b> and <b>Acupuncture</b>.  We are an environmentally conscious company committed to using eco-friendly and organic products for our beloved clients. So while you are here, let go of the world, and allow us to create a personalized experience for you!</p>
-                </div>
-                   
-<div class="col-sm-12 text-center">
-  <h3>Personalize your experience with our <span class="pink">Mobile App </span></h3>
-  <a href="https://itunes.apple.com/us/app/leela-eco-spa-and-studio/id946027725?mt=8" class="btn btn-sm" target="_blank" rel="nofollow"><img class="img-responsive img-full" src="/assets/light/leelaapp.png" alt="LeelaEcoSpa iPhone App"></a>
-  <a href="https://play.google.com/store/apps/details?id=com.fitnessmobileapps.leelaecospa&amp;hl=en" class="btn btn-sm" target="_blank" rel="nofollow"><img class="img-responsive img-full" src="/assets/light/leelaapp2.png" alt="LeelaEcoSpa Android App"></a>
-</div>
-    
-        <div class="col-lg-12 col-md-12">
-            <div class="row text-center">
-                <div class="col-lg-12 col-md-12">
-                    <h3 class="pad_top_bot1 pink">
-                        <strong>Services</strong>
-                    </h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-4 col-md-4  col-sm-4">
-                    <%= link_to(image_tag("/assets/light/massage_home.jpg", class: 'image_responsive'), spa_massages_path,  :method => :get) %>
-                    <%= link_to "<h4><strong>SPA</strong></h4>".html_safe, spa_massages_path, :method => :get %>
-                    <h6>Relax &amp; let our therapists use their professional skills to create a magical experience for your senses.</h6>                  
-                </div>
-                <div class="col-lg-4 col-md-4  col-sm-4">
-                    <%= link_to(image_tag("/assets/light/spa-in-calgary.jpg", class: 'image_responsive'), spa_esthetics_path,  :method => :get) %>
-                    <%= link_to "<h4><strong>ESTHETICS</strong></h4>".html_safe, spa_esthetics_path, :method => :get %>
-                    <h6>Our esthetician will hold a consultation with you, and based on your skin type, use the best Eminence product suited for your needs.</h6>
-                </div>
-                <div class="col-lg-4 col-md-4  col-sm-4">
-                    <%= link_to(image_tag("/assets/light/home-acupuncture.jpg", class: 'image_responsive'), natural_acupuncture_path,  :method => :get) %>
-                    <%= link_to "<h4><strong>NATURAL MEDICINE</strong></h4>".html_safe, natural_acupuncture_path, :method => :get %>
-                    <h6>High level wellness is more than being free from a serious disease.</h6>
-                </div>
-            </div>
+<div class="container">
+  <div class="row">
+    <div class="box">
+      <div class="col-lg-12 text-center">
+        <img class="img-responsive img-full hidden-xs" src="/assets/light/spa-massage-calgary.jpg" alt="Spa in Downtown">
+
+        <div class="text-center">
+          <img class="image_responsive hidden-sm hidden-md hidden-lg" src="/assets/light/spa-calgary.jpg" alt="Massage in Downtown">
         </div>
-        
-    <div class="col-sm-12 pad_top3">
+        <div class="carousel-caption hidden-xs">
+          <a href="http://clients.mindbodyonline.com/classic/ws?studioid=8778&amp;stype=-9" class="btn btn-default btn-lg" target="_blank" rel="nofollow">Book
+            Appointment</a>
+        </div>
+        <div class="carousel-caption hidden-sm hidden-md hidden-lg">
+          <a href="http://clients.mindbodyonline.com/classic/ws?studioid=8778&amp;stype=-9" class="btn btn-default btn-sm" target="_blank" rel="nofollow">Book
+            Appointment</a>
+        </div>
+      </div>
+      <div class="col-lg-12 text-center">
+        <h2 class="brand-before">
+          <small>Welcome to</small>
+        </h2>
+        <h1 class="brand-name"><span class="pink">Leela Eco Spa </span></h1>
+
+        <p class="r_text-justify pad_top1">Leela Eco Spa offers services in <b>Spa</b>, <b>Massage</b>, <b>Esthetics</b>,
+          <b>Waxing</b> and <b>Acupuncture</b>. We are an environmentally conscious company committed to using
+          eco-friendly and organic products for our beloved clients. So while you are here, let go of the world, and
+          allow us to create a personalized experience for you!</p>
+      </div>
+      <div class="well text-center">
+        <p>Leela Eco Spa one-of-a-kind eco <b>Spa in Calgary</b>, with spellbinding experience of <b>Massage and Esthetics</b> in Calgary in a breathtaking premiere facility, and our team of committed professional experts. We are one the leading Calgary spas, situated at the very heart of a vibrant and cosmopolitan neighborhood, just outside downtown calgary. You can avail our online or app booking services to make the experience even more convenient.</p>
+        <p>We aim to make you feel the very best by personalizing each session with the very best practitioners, surrounded by the elements of earth - air, water, and fire. Excellently designed, our Spa in Calgary near downtown is served by registered massage therapists and experienced estheticians. Each of our practitioner is richly experienced to nurture your mind, body, and spirit, taking it to a whole new level.</p>
+        <p>Time, as we consider, is the most precious thing. How we choose to spend it enriches our lives immeasurably. A good spa does the same perfectly, defining your moments of bliss with a sense of high well-being.</p>
+      </div>
+
+      <div class="col-sm-12 text-center">
+        <h3>Personalize your experience with our <span class="pink">Mobile App </span></h3>
+        <a href="https://itunes.apple.com/us/app/leela-eco-spa-and-studio/id946027725?mt=8" class="btn btn-sm" target="_blank" rel="nofollow"><img class="img-responsive img-full" src="/assets/light/leelaapp.png" alt="LeelaEcoSpa iPhone App"></a>
+        <a href="https://play.google.com/store/apps/details?id=com.fitnessmobileapps.leelaecospa&amp;hl=en" class="btn btn-sm" target="_blank" rel="nofollow"><img class="img-responsive img-full" src="/assets/light/leelaapp2.png" alt="LeelaEcoSpa Android App"></a>
+      </div>
+
+      <div class="col-lg-12 col-md-12">
+        <div class="row text-center">
+          <div class="col-lg-12 col-md-12">
+            <h3 class="pad_top_bot1 pink">
+              <strong>Services</strong>
+            </h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-4  col-sm-4">
+            <%= link_to(image_tag("/assets/light/massage_home.jpg", class: 'image_responsive'), spa_massages_path, :method => :get) %>
+            <%= link_to "<h4><strong>SPA</strong></h4>".html_safe, spa_massages_path, :method => :get %>
+            <h6>Relax &amp; let our therapists use their professional skills to create a magical experience for your
+              senses.</h6>
+          </div>
+          <div class="col-lg-4 col-md-4  col-sm-4">
+            <%= link_to(image_tag("/assets/light/spa-in-calgary.jpg", class: 'image_responsive'), spa_esthetics_path, :method => :get) %>
+            <%= link_to "<h4><strong>ESTHETICS</strong></h4>".html_safe, spa_esthetics_path, :method => :get %>
+            <h6>Our esthetician will hold a consultation with you, and based on your skin type, use the best Eminence
+              product suited for your needs.</h6>
+          </div>
+          <div class="col-lg-4 col-md-4  col-sm-4">
+            <%= link_to(image_tag("/assets/light/home-acupuncture.jpg", class: 'image_responsive'), natural_acupuncture_path, :method => :get) %>
+            <%= link_to "<h4><strong>NATURAL MEDICINE</strong></h4>".html_safe, natural_acupuncture_path, :method => :get %>
+            <h6>High level wellness is more than being free from a serious disease.</h6>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Our Spas - An Imperial Sanctuary</h3>
+            </div>
+            <div class="panel-body fixed-panel">
+              <p>Providing our customers with a holistic approach to mind and body is what we focus upon the most. We
+                have developed our therapies exclusively through natural products. </p>
+
+              <p>Our exclusive retreat will relax your body and refresh your mind. You will find yourself pampered with
+                unique decoration & experience the warmth of Leela that is dedicated to you. The private suite offers
+                room for ultimate indulgence.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Our Facility</h3>
+            </div>
+            <div class="panel-body fixed-panel">
+              <p>Our facility has a personal touch that will not only rejuvenate you, but will give a sense of renewal.
+                We offer a complete menu of men and women beauty treatments that stand world-class.</p>
+
+              <p>Our therapies include refreshing facials, luxuriant body wraps, intensely done body scrubs, and
+                intricate hand and foot care. Our signature treatments have been created by renowned aromatherapy
+                associates.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Our Offers and Packages</h3>
+            </div>
+            <div class="panel-body fixed-panel">
+              <p>We have designed our packages keeping our customers in mind. Just as life comes with certain specials,
+                we bring for you our special offers that will include best combos along with being easy on your
+                pockets.</p>
+
+              <p>We ensure you, whether it is our services, our facility, our treatments, your visit will be no less
+                than memorable.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-12 pad_top3">
         <div class="well">
-            <p class="text-center r_text-justify"><strong>We are excited to announce the joining together of Leela Yoga with Journey Yoga. This collaboration will begin on September 1st.  While Leela Eco Spa will remain your place to go for massage, esthetics &amp; Natural Medicine, all yoga classes will be held at Journey Yoga , just one block away.</strong></p>
+          <p class="text-center r_text-justify">
+            <strong>We are excited to announce the joining together of Leela Yoga with Journey Yoga. This collaboration
+              will begin on September 1st. While Leela Eco Spa will remain your place to go for massage, esthetics &amp;
+              Natural Medicine, all yoga classes will be held at Journey Yoga , just one block away.</strong></p>
         </div>
-    </div>
-                      <div class="col-sm-12 pad_top3">
-                        <div class="well">
-                          <p class="text-center">Leela Eco Spa is located in Bridgeland, near downtown Calgary. We offer massages esthetics &amp; acupuncture. We strive to provide the ‘Leela’ experience for each treatment from friendly &amp; relaxing environment, using organic &amp; natural products for each service, customizing each treatment to the client need to sharing the satisfaction after each service. We are an eco-friendly spa and indulge in several eco-friendly initiatives both inside and outside the spa. We recently planted several fruit bearing trees and shrubs in a homeless accommodation in Calgary. We are proud to be a net carbon positive organization and are committed to expanding our contribution to the environment and community each year, one initiative at a time. We hope that you enjoy your time at Leela!</p>
-                        </div>
-                      </div>
+      </div>
+      <div class="col-sm-12 pad_top3">
+        <div class="well">
+          <p class="text-center">Leela Eco Spa is located in Bridgeland, near downtown Calgary. We offer massages
+            esthetics &amp; acupuncture. We strive to provide the ‘Leela’ experience for each treatment from
+            friendly &amp; relaxing environment, using organic &amp; natural products for each service, customizing each
+            treatment to the client need to sharing the satisfaction after each service. We are an eco-friendly spa and
+            indulge in several eco-friendly initiatives both inside and outside the spa. We recently planted several
+            fruit bearing trees and shrubs in a homeless accommodation in Calgary. We are proud to be a net carbon
+            positive organization and are committed to expanding our contribution to the environment and community each
+            year, one initiative at a time. We hope that you enjoy your time at Leela!</p>
+        </div>
+      </div>
 
-    <div class="col-sm-12 pad_top1" id="award_carousel">
-     
-    <h2 class="intro-text text-center pink">
-        <strong>Awards And Recognitions</strong>
-    </h2>
-    <div class="well hidden-xs">     
-    <div id="myCarousel" class="carousel slide">
-    <div class="carousel-inner">
-    <div class="item active">
-        <div class="row-fluid"> 
-            <h3 class="text-center">
-                <strong>2014 Award Winning Spa</strong>
-            </h3>
-            <div class="col-xs-3 col-sm-3 text-center">
-              <%= image_tag("light/spa-business award.png", class: "image_responsive", alt: "Stewardship Award") %><h5><strong>Environmental Stewardship Award</strong></h5>
-            </div> 
-            <div class="col-xs-3 col-sm-3 text-center">
-              <%= image_tag("light/spa-business award1.png", class: "image_responsive", alt: "Business Award") %><h5><strong>Breakout Business Award</strong></h5>
-            </div>            
-            <div class="col-xs-3 col-sm-3 text-center">
-              <%= image_tag("light/spa-business award2.png", class: "image_responsive", alt: "Bcorporation Award") %><h5><strong>Certified by bcorporation.net</strong></h5>
-            </div>
-            <div class="col-xs-3 col-sm-3 text-center">
-              <%= image_tag("light/spa-business award3.png", class: "image_responsive", alt: "Bcorporation Award") %><h5><strong>Favourite Small Business by REAP</strong></h5>
-            </div> 
-        </div><!--/row-fluid-->
-    </div><!--/item-->
-     
-    <div class="item">
-        <div class="row-fluid">
-            <h3 class="text-center">
-                <strong>2013 Awards and Recognitions</strong>
-            </h3>
-            <div class="col-xs-3 col-sm-3  text-center">
-              <%= image_tag("light/spa-business award4.png", class: "image_responsive", alt: "Stewardship Award") %><h5><strong>Environmental Stewardship Award</strong></h5>
-            </div>       
+      <div class="col-sm-12 pad_top1" id="award_carousel">
 
-            <div class="col-xs-3 col-sm-3  text-center">
-              <%= image_tag("light/spa-business award5.png", class: "image_responsive", alt: "Business Award") %><h5><strong>Small Business of the Year Finalist</strong></h5>
-            </div>
-            <div class="col-xs-3 col-sm-3 text-center">
-              <%= image_tag("light/spa-business award6.jpg", class: "image_responsive", alt: "Economy Award") %><h5><strong>Community Economy Leader</strong></h5>
-            </div>
-            
-            <div class="col-xs-3 col-sm-3 text-center">
-              <%= image_tag("light/spa-business award7.png", class: "image_responsive", alt: "Small Business") %><h5><strong>Favourite Small Business</strong></h5>
-            </div>
-        </div><!--/row-fluid-->
-    </div><!--/item-->
-     
-    
-     
-    </div><!--/carousel-inner-->
-     
-    <a class="left carousel-control"  href="#myCarousel" data-slide="prev">‹</a>
-    <a class="right carousel-control"  href="#myCarousel" data-slide="next">›</a>
-    </div><!--/myCarousel-->
-     
-    </div><!--/well-->
+        <h2 class="intro-text text-center pink">
+          <strong>Awards And Recognitions</strong>
+        </h2>
 
-    
-    <div class="well hidden-sm hidden-md hidden-lg ">
-    <div class="carousel_mh">     
-    <div id="myCarousel_xs" class="carousel slide">
-     
-    <!-- Carousel items -->
-    <div class="carousel-inner">
-        
-    <div class="item active">
-        <div class="row-fluid"> 
-            <h3 class="text-center">
-                <strong>2014 Award Winning Spa</strong>
-            </h3>
-            <div class="col-xs-12 text-center">
-              <%= image_tag("light/spa-business award.png", class: "image_responsive", alt: "Stewardship Award") %><h5><strong>Environmental Stewardship Award</strong></h5>
-            </div>
-        </div> 
-    </div>
-    <div class="item">
-        <div class="row-fluid"> 
-            <h3 class="text-center">
-                <strong>2014 Award Winning Spa</strong>
-            </h3>
-            <div class="col-xs-12 col-sm-3 text-center">
-              <%= image_tag("award/award_2014_2.png", class: "image_responsive", alt: "Business Award") %><h5><strong>Breakout Business Award</strong></h5>
-            </div>
-        </div>            
-    </div>
-    <div class="item">
-        <div class="row-fluid"> 
-            <h3 class="text-center">
-                <strong>2014 Award Winning Spa</strong>
-            </h3>
-            <div class="col-xs-12 col-sm-3 text-center">
-              <%= image_tag("award/award_2014_3.jpg", class: "image_responsive", alt: "Bcorporation Award") %><h5><strong>Certified by bcorporation.net</strong></h5>
-            </div>
-        </div>
-    </div>
-    <div class="item">
-        <div class="row-fluid"> 
-            <h3 class="text-center">
-                <strong>2014 Award Winning Spa</strong>
-            </h3>
-            <div class="col-xs-12 col-sm-3 text-center">
-              <%= image_tag("award/award_2014_4.png", class: "image_responsive", alt: "Bcorporation Award") %><h5><strong>Favourite Small Business by REAP</strong></h5>
-            </div> 
-        </div>
-    </div>
-     
-    <div class="item">
-        <div class="row-fluid">
-            <h3 class="text-center">
-                <strong>2013 Awards and Recognitions</strong>
-            </h3>
-            <div class="col-xs-12 text-center">
-              <%= image_tag("award/award_2013_1.png", class: "image_responsive", alt: "Stewardship Award") %><h5><strong>Environmental Stewardship Award</strong></h5>
-            </div>
-        </div>       
-    </div>
-    <div class="item">
-        <div class="row-fluid">
-            <div class="col-xs-12 text-center">
-              <%= image_tag("award/award_2013_2.png", class: "image_responsive", alt: "Business Award") %><h5><strong>Small Business of the Year Finalist</strong></h5>
-            </div>
-        </div>
-    </div>
-    <div class="item">
-        <div class="row-fluid">
-            <div class="col-xs-12 text-center">
-              <%= image_tag("award/award_2013_3.png", class: "image_responsive", alt: "Economy Award") %><h5><strong>Community Economy Leader</strong></h5>
-            </div>
-        </div>
-    </div>
-    <div class="item">
-        <div class="row-fluid">            
-            <div class="col-xs-12 text-center">
-              <%= image_tag("award/award_2013_4.png", class: "image_responsive", alt: "Small Business") %><h5><strong>Favourite Small Business</strong></h5>
-            </div>
-        </div>
-    </div>     
-    
-     
-    </div><!--/carousel-inner-->
-     
-    <a class="left carousel-control"  href="#myCarousel_xs" data-slide="prev">‹</a>
-    <a class="right carousel-control"  href="#myCarousel_xs" data-slide="next">›</a>
-    </div><!--/myCarousel_xs-->
-     
-    </div><!--/well-->
-    </div>
+        <div class="well hidden-xs">
+          <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row-fluid">
+                  <h3 class="text-center">
+                    <strong>2014 Award Winning Spa</strong>
+                  </h3>
 
+                  <div class="col-xs-3 col-sm-3 text-center">
+                    <%= image_tag("light/spa-business award.png", class: "image_responsive", alt: "Stewardship Award") %>
+                    <h5><strong>Environmental Stewardship Award</strong></h5>
+                  </div>
+                  <div class="col-xs-3 col-sm-3 text-center">
+                    <%= image_tag("light/spa-business award1.png", class: "image_responsive", alt: "Business Award") %>
+                    <h5><strong>Breakout Business Award</strong></h5>
+                  </div>
+                  <div class="col-xs-3 col-sm-3 text-center">
+                    <%= image_tag("light/spa-business award2.png", class: "image_responsive", alt: "Bcorporation Award") %>
+                    <h5><strong>Certified by bcorporation.net</strong></h5>
+                  </div>
+                  <div class="col-xs-3 col-sm-3 text-center">
+                    <%= image_tag("light/spa-business award3.png", class: "image_responsive", alt: "Bcorporation Award") %>
+                    <h5><strong>Favourite Small Business by REAP</strong></h5>
+                  </div>
+                </div>
+                <!--/row-fluid-->
+              </div>
+              <!--/item-->
+
+              <div class="item">
+                <div class="row-fluid">
+                  <h3 class="text-center">
+                    <strong>2013 Awards and Recognitions</strong>
+                  </h3>
+
+                  <div class="col-xs-3 col-sm-3  text-center">
+                    <%= image_tag("light/spa-business award4.png", class: "image_responsive", alt: "Stewardship Award") %>
+                    <h5><strong>Environmental Stewardship Award</strong></h5>
+                  </div>
+
+                  <div class="col-xs-3 col-sm-3  text-center">
+                    <%= image_tag("light/spa-business award5.png", class: "image_responsive", alt: "Business Award") %>
+                    <h5><strong>Small Business of the Year Finalist</strong></h5>
+                  </div>
+                  <div class="col-xs-3 col-sm-3 text-center">
+                    <%= image_tag("light/spa-business award6.jpg", class: "image_responsive", alt: "Economy Award") %>
+                    <h5><strong>Community Economy Leader</strong></h5>
+                  </div>
+
+                  <div class="col-xs-3 col-sm-3 text-center">
+                    <%= image_tag("light/spa-business award7.png", class: "image_responsive", alt: "Small Business") %>
+                    <h5><strong>Favourite Small Business</strong></h5>
+                  </div>
+                </div>
+                <!--/row-fluid-->
+              </div>
+              <!--/item-->
+
+
+            </div>
+            <!--/carousel-inner-->
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+          </div>
+          <!--/myCarousel-->
+
+        </div>
+        <!--/well-->
+
+
+        <div class="well hidden-sm hidden-md hidden-lg ">
+          <div class="carousel_mh">
+            <div id="myCarousel_xs" class="carousel slide">
+
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+
+                <div class="item active">
+                  <div class="row-fluid">
+                    <h3 class="text-center">
+                      <strong>2014 Award Winning Spa</strong>
+                    </h3>
+
+                    <div class="col-xs-12 text-center">
+                      <%= image_tag("light/spa-business award.png", class: "image_responsive", alt: "Stewardship Award") %>
+                      <h5><strong>Environmental Stewardship Award</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row-fluid">
+                    <h3 class="text-center">
+                      <strong>2014 Award Winning Spa</strong>
+                    </h3>
+
+                    <div class="col-xs-12 col-sm-3 text-center">
+                      <%= image_tag("award/award_2014_2.png", class: "image_responsive", alt: "Business Award") %>
+                      <h5><strong>Breakout Business Award</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row-fluid">
+                    <h3 class="text-center">
+                      <strong>2014 Award Winning Spa</strong>
+                    </h3>
+
+                    <div class="col-xs-12 col-sm-3 text-center">
+                      <%= image_tag("award/award_2014_3.jpg", class: "image_responsive", alt: "Bcorporation Award") %>
+                      <h5><strong>Certified by bcorporation.net</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row-fluid">
+                    <h3 class="text-center">
+                      <strong>2014 Award Winning Spa</strong>
+                    </h3>
+
+                    <div class="col-xs-12 col-sm-3 text-center">
+                      <%= image_tag("award/award_2014_4.png", class: "image_responsive", alt: "Bcorporation Award") %>
+                      <h5><strong>Favourite Small Business by REAP</strong></h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="row-fluid">
+                    <h3 class="text-center">
+                      <strong>2013 Awards and Recognitions</strong>
+                    </h3>
+
+                    <div class="col-xs-12 text-center">
+                      <%= image_tag("award/award_2013_1.png", class: "image_responsive", alt: "Stewardship Award") %>
+                      <h5><strong>Environmental Stewardship Award</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row-fluid">
+                    <div class="col-xs-12 text-center">
+                      <%= image_tag("award/award_2013_2.png", class: "image_responsive", alt: "Business Award") %>
+                      <h5><strong>Small Business of the Year Finalist</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row-fluid">
+                    <div class="col-xs-12 text-center">
+                      <%= image_tag("award/award_2013_3.png", class: "image_responsive", alt: "Economy Award") %>
+                      <h5><strong>Community Economy Leader</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row-fluid">
+                    <div class="col-xs-12 text-center">
+                      <%= image_tag("award/award_2013_4.png", class: "image_responsive", alt: "Small Business") %>
+                      <h5><strong>Favourite Small Business</strong></h5>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <!--/carousel-inner-->
+
+              <a class="left carousel-control" href="#myCarousel_xs" data-slide="prev">‹</a>
+              <a class="right carousel-control" href="#myCarousel_xs" data-slide="next">›</a>
+            </div>
+            <!--/myCarousel_xs-->
+
+          </div>
+          <!--/well-->
+        </div>
+
+      </div>
+
+    </div>
   </div>
+</div>
+<!-- /.container -->
 
-            </div>
-        </div>
-    </div>
-    <!-- /.container -->
-       
-    <!-- Script to Activate the Carousel -->
-    <script>
+<!-- Script to Activate the Carousel -->
+<script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
-    </script>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+</script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-61847818-1', 'auto');
-        ga('send', 'pageview');
+    ga('create', 'UA-61847818-1', 'auto');
+    ga('send', 'pageview');
 
-    </script>
+</script>
 
 
