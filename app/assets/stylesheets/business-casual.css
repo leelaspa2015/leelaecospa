@@ -287,6 +287,11 @@ footer h6
     padding-top:3em
 }
 
+.pad_top10
+{
+    padding-top:10em
+}
+
 .pad_top6p5
 {
     padding-top:6.5em
@@ -348,7 +353,9 @@ footer h6
 {
     color:green
 }
-
+.font_12 {
+    font-size: 12px;
+}
 .gi-2x
 {
     font-size:2em
