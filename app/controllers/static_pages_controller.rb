@@ -20,6 +20,42 @@ class StaticPagesController < ApplicationController
   def spa_estheticians
   end
 
+  def esthetics_advance_medical    
+  end
+
+  def esthetics_facial    
+  end
+
+  def esthetics_mani_padi    
+  end
+
+  def esthetics_packages    
+  end
+
+  def massage_aromatherapy
+  end
+
+  def massage_couples    
+  end
+
+  def massage_group_booking    
+  end
+
+  def massage_hot_stone    
+  end
+
+  def massage_pre_post_natal    
+  end
+
+  def massage_relaxation    
+  end
+
+  def massage_sports    
+  end
+
+  def massage_theraputic    
+  end
+
   def yoga_classes
   end
 

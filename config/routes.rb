@@ -13,6 +13,22 @@ Leelaecospa::Application.routes.draw do
   match '/spa-waxing', to: 'static_pages#spa_waxing', via: 'get', as: :spa_waxing
   match '/spa-therapists', to: 'static_pages#spa_therapists', via: 'get', as: :spa_therapists
   match '/spa-estheticians', to: 'static_pages#spa_estheticians', via: 'get', as: :spa_estheticians
+  
+  match '/aromatherapy', to: 'static_pages#massage_aromatherapy', via: 'get', as: :massage_aromatherapy
+  match '/couples', to: 'static_pages#massage_couples', via: 'get', as: :massage_couples
+  match '/group-booking', to: 'static_pages#massage_group_booking', via: 'get', as: :massage_group_booking
+  match '/hot-stone', to: 'static_pages#massage_hot_stone', via: 'get', as: :massage_hot_stone
+  match '/pre-post-natal', to: 'static_pages#massage_pre_post_natal', via: 'get', as: :massage_pre_post_natal
+  match '/relaxation', to: 'static_pages#massage_relaxation', via: 'get', as: :massage_relaxation
+  match '/sports', to: 'static_pages#massage_sports', via: 'get', as: :massage_sports
+  match '/theraputic', to: 'static_pages#massage_theraputic', via: 'get', as: :massage_theraputic
+
+
+  match '/advance-medical', to: 'static_pages#esthetics_advance_medical', via: 'get', as: :esthetics_advance_medical
+  match '/facial', to: 'static_pages#esthetics_facial', via: 'get', as: :esthetics_facial
+  match '/mani-padi', to: 'static_pages#esthetics_mani_padi', via: 'get', as: :esthetics_mani_padi
+  match '/packages', to: 'static_pages#esthetics_packages', via: 'get', as: :esthetics_packages
+ 
   match '/yoga-classes', to: 'static_pages#yoga_classes', via: 'get', as: :yoga_classes
   match '/yoga-schedule', to: 'static_pages#yoga_schedule', via: 'get', as: :yoga_schedule
   #match '/yoga_littlehippies', to: 'static_pages#yoga_littlehippies', via: 'get'
