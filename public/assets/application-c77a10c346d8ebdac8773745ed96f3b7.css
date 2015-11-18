@@ -6601,6 +6601,10 @@ h1,h2,h3,h4,h5,h6
     letter-spacing:1px
 }
 
+h1 {
+    margin-bottom: 20px;
+}
+
 p
 {
     font-size:16px;
@@ -6871,6 +6875,11 @@ footer h6
     padding-top:3em
 }
 
+.pad_top10
+{
+    padding-top:10em
+}
+
 .pad_top6p5
 {
     padding-top:6.5em
@@ -6897,9 +6906,9 @@ footer h6
     padding-bottom:1em
 }
 
-.pad_right12
+.pad_right1
 {
-    padding-right:18em
+    padding-right:1em
 }
 
 .mar_topm15p
@@ -6932,7 +6941,9 @@ footer h6
 {
     color:green
 }
-
+.font_12 {
+    font-size: 12px;
+}
 .gi-2x
 {
     font-size:2em
@@ -7009,6 +7020,13 @@ footer h6
     padding-top:1em
 }
 
+/*=== Massages === */
+
+.msg p img {
+    float: right;
+    display: inline;
+    margin: 0px 0px 15px 20px;
+}
 
 /*
  * Bootstrap Image Gallery CSS 3.0.0
@@ -7114,4 +7132,11 @@ footer h6
 /* line 17, C:/Sites/live_project/leelaecospa/app/assets/stylesheets/static_pages.css.scss */
 .pink {
   color: #EF2572;
+}
+
+/* line 21, C:/Sites/live_project/leelaecospa/app/assets/stylesheets/static_pages.css.scss */
+.fixed-panel {
+  min-height: 10px;
+  max-height: 10px;
+  overflow-y: scroll;
 }
